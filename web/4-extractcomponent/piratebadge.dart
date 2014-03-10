@@ -12,7 +12,7 @@ import 'dart:mirrors';
     selector: '[badges]',
     publishAs: 'ctrl')
 class BadgesController {
-  String name = '';
+  String name = 'Bart';
 
   bool get inputIsNotEmpty => !name.trim().isEmpty;
   String get label => inputIsNotEmpty ? "Arrr! Write yer name!" : "Aye! Gimme a name!";
